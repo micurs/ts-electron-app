@@ -2,6 +2,10 @@
 
 This example demonstrate how you can set-up TypeScript and Parcel to build a fully functional electron application.
 
+<img src="screenshot.jpg"
+     alt="Screenshot"
+     style="margin: 10px auto; width: 400px" />
+
 We use [elctron-forge](https://www.electronforge.io/) to assemble the Electron app.
 
 To begin, make sure you get all the dependencies installed:
