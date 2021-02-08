@@ -1,6 +1,4 @@
 import { ipcMain, app, BrowserWindow } from 'electron';
-import * as isDev from 'electron-is-dev';
-import { IpcMainInvokeEvent } from 'electron/main';
 import * as path from 'path';
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -37,11 +35,6 @@ const createWindow = (): void => {
 
   // and load the index.html of the app.
   mainWindow.loadFile(path.join(__dirname, '../dist/index.html'));
-
-  // Open the DevTools.
-  // if (isDev) {
-  // }
-  // mainWindow.webContents.openDevTools();
 };
 
 // This method will be called when Electron has finished
