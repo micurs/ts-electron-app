@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "productName": "my-app",
+  "name": "ts-electron-app",
+  "productName": "ts-electron-app",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "dist/main.js",
